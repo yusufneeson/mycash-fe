@@ -1,3 +1,4 @@
+import { GoogleIcon } from "../components/icons";
 import Input from "../components/Input";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
 					<div className="rounded-md shadow-sm py-6 px-5 border border-gray-100">
 						<div className="grid gap-6">
 							<button className="h-12 px-6 border border-blue-50 rounded-lg bg-blue-50">
-								<div className="flex items-center space-x-4 justify-center">
+								<div className="flex items-center space-x-3 justify-center">
+									<GoogleIcon className="w-5" />
 									<span className="block w-max font-medium tracking-wide text-sm text-blue-700">
 										with Google
 									</span>
